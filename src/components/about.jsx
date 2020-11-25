@@ -6,25 +6,16 @@ export class about extends Component {
         <div id="about">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>
+            <div className="col-xs-12 col-md-6"> <img src="img/project.jpg" className="img-responsive" alt=""/> </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
-                <h2>About Us</h2>
-                <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
-                <h3>Why Choose Us?</h3>
-                <div className="list-style">
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul>
-                      {this.props.data ? this.props.data.Why.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
-                    </ul>
-                  </div>
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul>
-                    {this.props.data ? this.props.data.Why2.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
-
-                    </ul>
-                  </div>
-                </div>
+                <h2>El proyecto</h2>
+                <p>{this.props.data ? this.props.data.paragraph1 : 'cargando...'}</p>
+                <p>{this.props.data ? this.props.data.paragraph2 : 'cargando...'}</p>
+                <p>{this.props.data ? this.props.data.paragraph3 : 'cargando...'}</p>
+                <p><b><i>{this.props.data ? this.props.data.invitation : 'cargando...'}</i></b></p>
+                <p><b>{this.props.data ? this.props.data.info : 'cargando...'}</b>  
+                <b>{this.props.data ? this.props.data.author : 'cargando...'}</b></p>
               </div>
             </div>
           </div>

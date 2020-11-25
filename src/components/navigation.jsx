@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              #<span className="icon-bar" style={{color: "#96241d"}} >6</span>MilesChile
+            <span className="icon-bar" style={{color:"#0e2591"}} >#Chile</span><span className="icon-bar" style={{color: "#b82925"}} >6</span><span className="icon-bar" style={{color: "#b82925"}} >Miles</span>
             </a>{" "}
           </div>
 
@@ -30,17 +30,17 @@ export class Navigation extends Component {
             <ul className="nav navbar-nav navbar-right">
               <li>
                 <a href="#features" className="page-scroll">
-                  Inicio
+                +6000 msnm
                 </a>
               </li>
               <li>
                 <a href="#about" className="page-scroll">
-                  Nosotros
+                  El Proyecto
                 </a>
               </li>
               <li>
                 <a href="#services" className="page-scroll">
-                  Eventos
+                Apoyo
                 </a>
               </li>
               <li>
@@ -48,19 +48,19 @@ export class Navigation extends Component {
                   Imágenes
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonials" className="page-scroll">
                   Aventuras
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#team" className="page-scroll">
-                  Team
+                  Equipo
                 </a>
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>

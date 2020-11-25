@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+library.add(faUser);
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"></link>
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -6,10 +6,9 @@ export class Services extends Component {
       <div id="services" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Our Services</h2>
+            <h2>Apoyo</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+            Esta aventura no serpia posible sin la colaboración de las siguientes marcas.
             </p>
           </div>
           <div className="row">
@@ -17,15 +16,21 @@ export class Services extends Component {
               ? this.props.data.map((d, i) => (
                   <div  key={`${d.name}-${i}`} className="col-md-4">
                     {" "}
-                    <i className={d.icon}></i>
+                    <img
+                        src={d.src}
+                        className="img-responsive"
+                        alt={d.name}
+                      />
                     <div className="service-desc">
                       <h3>{d.name}</h3>
-                      <p>{d.text}</p>
                     </div>
                   </div>
                 ))
               : "loading"}
           </div>
+          <p>
+            Si quieres convertirte en auspiciador y ser parte de este proyecto ayudándonos a cumplir nuestro objetivo y generar contenido, puedes contactarnos.
+          </p>
         </div>
       </div>
     );

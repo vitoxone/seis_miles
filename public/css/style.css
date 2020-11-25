@@ -98,7 +98,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #0e2591 33%, #b82925 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +115,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #0e2591 33%, #b82925 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #b82925 33%, #0e2591 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +155,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #b82925;
+	background-image: linear-gradient(to right, #b82925 33%, #0e2591 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -169,7 +169,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	background-color: #0e2591;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -208,10 +208,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 span.six {
 	font-weight: 800;
-	color: #bf2d00;
+	color: #b82925;
 }
 .intro h1 span.country{
-	color: #02377d;
+	color: #0e2591;
 }
 .intro p {
 	color: #fff;
@@ -243,13 +243,18 @@ header .intro-text {
 header .intro-text .tittle{
 	border-left-style: solid;
 	border-left-width: 10px;
-	border-color: #bf2d00;
+	border-color: #b82925;
+;
 	margin-top: 45px
 }
 /* Features Section */
 #features {
 	padding: 100px 0;
 	background: #f6f6f6;
+}
+
+#features .features-desc {
+	margin: 10px 10px 20px;
 }
 #features i.fa {
 	font-size: 38px;
@@ -260,7 +265,7 @@ header .intro-text .tittle{
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
@@ -279,7 +284,7 @@ header .intro-text .tittle{
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #b82925 0%, #0e2591 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -294,7 +299,7 @@ header .intro-text .tittle{
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #b82925;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
@@ -313,7 +318,7 @@ header .intro-text .tittle{
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -337,7 +342,7 @@ header .intro-text .tittle{
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -458,7 +463,7 @@ header .intro-text .tittle{
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {

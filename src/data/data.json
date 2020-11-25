@@ -7,53 +7,42 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+        "paragraph1": "Chile6Miles, es un proyecto deportivo que busca escalar todas las cumbres de mas de 6.000 msnm de los Andes Chilenos.  Se trata de 37 montañas que cumplen esta característica, que se encuentran distribuidas desde la Región de Arica y Parinacota, hasta la Región Metropolitana. Dentro de este grupo de montañas, existen algunas icónicas, como el Volcán Ojos del Salado que con sus 6.893 msnm, se alza como el volcán activo más grande del mundo y la segunda mayor altura de américa, o el Cerro Marmolejo, que con sus 6.108 msnm tiene la categoría de ser el 6mil más austral del mundo.",
+        "paragraph2": "Dado que no existen registros de equipos chilenos que hayan realizado esta hazaña, buscamos ser los primeros nacionales en lograrlo, detallando rutas e información útil, documentar el cambio climático en la cordillera de los Andes Chilenos y generar material audiovisual actualizado.",
+        "paragraph3": "Siendo Chile un país de montaña y con una cultura montañista creciente, buscamos con este proyecto dar a conocer las altas cumbres Chilenas a la comunidad nacional e internacional, y ser una motivación para experimentar la montaña y su práctica segura.",
+        "invitation": "Los invitamos a seguir nuestra aventura.",
+        "info": "Persigo la felicidad. Y la montaña responde a mi búsqueda.",
+        "author": "[Chantal Maudit]",
+        "image": "img/project.jpg"
+        
     },
     "Services": [{
             "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Ilustre Municipalidad de Graneros",
+            "src": "img/logo_muni.png"
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "NUMEC Ingeniería y Montaje",
+            "src": "img/logo_numerec.png"
         },
         {
             "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "NAC Ingeniería",
+            "src": "img/nac_logo.png"
         }
-
-
     ],
+
+    "Galley": [{
+        "src": "img/portafolio/1.jpg"
+    },
+    {
+        "src": "img/portafolio/2.jpg"
+    },
+    {
+        "src": "img/portafolio/3.jpg"
+    }
+],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
@@ -85,53 +74,87 @@
             "name": "Johnathan Doe"
         }
     ],
-    "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+    "Team": {
+        "title": {
+            "team1" : "Somos un equipo joven y entusiasta, apasionado de las actividades de montaña y la aventura, con cumbres como el Aconcagua, Ojos del Salado, Volcán Acotango, Volcán Guallatiri y gran parte de Los Andes Centrales, hasta travesías desde Patagonia al Norte de Chile.",
+            "team2" : "Nuestra aspiración es difundir las actividades de montaña, su práctica en forma segura y ser un aporte a la cultura de montaña de Chile."
+        },
+        "members": [{
+            "img": "img/team/nicolas.jpg",
+            "name": "Nicolás Núñez S.",
+            "job": ""
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "img": "img/team/hernan.jpg",
+            "name": "Hernán Núñez Cristi",
+            "job": ""
         }
-    ],
+    ]
+    },
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "address": "Guardia Vieja 181, Of 506. Providencia, Chile.",
+        "phone": "+56990933114",
+        "email": "info@chile6miles.cl",
         "facebook": "fb.com",
         "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "youtube.com",
+        "instagram": "instagram.com"
     },
     "Features": [{
+            "icon": "fa-mountain",
+            "title": "Arica y Parinacota",
+            "text": "5 Volcanes",
+            "img": "img/places/climb.png",
+            "detail" : [
+                {
+                    "name" : "Volcán Parinacota",
+                    "elevation" : "6,348 m",
+                    "first": "1928. Joseph Prem (AT) y CarlosTerán (BO), 12 de diciembre.",
+                    "type": "Estratovolcán",
+                    "route": "Nieve-roca",
+                    "andeshandbook": "https://www.andeshandbook.org/montanismo/cerro/15/Parinacota"
+                },
+                {
+                    "name" : "Volcán Guallatiri",
+                    "elevation" : "6,071 m",
+                    "first": "1926. Friedrich Ahlfeld (DE)",
+                    "type": "Estratovolcán",
+                    "route": "-",
+                    "andeshandbook": "https://www.andeshandbook.org/montanismo/cerro/14/Guallatiri"
+                },
+                {
+                    "name" : "Volcán Acotango",
+                    "elevation" : "6,348 m",
+                    "first": "1928",
+                    "type": "Estratovolcán",
+                    "route": "Nieve-roca",
+                    "andeshandbook": "https://www.andeshandbook.org/montanismo/cerro/15/Parinacota"
+                }
+        ]
+        },
+        {
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Antofagasta",
+            "text": "9 Volcanes",
+            "img": "img/places/climb.png"
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa-group",
+            "title": "Atacama",
+            "img": "img/places/climb.png",
+            "text": "3 Cerros, 8 Volcanes, 5 Nevados"
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa-magic",
+            "title": "Coquimbo",
+            "text": "1 Cerro, 1 Nevado",
+            "img": "img/places/climb.png"
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Metropolitana",
+            "text": "1 Cerro, 2 Nevados, 2 Volcanes",
+            "img": "img/places/climb.png"
         }
     ]
 }

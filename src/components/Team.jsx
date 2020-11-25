@@ -6,16 +6,16 @@ export class Team extends Component {
       <div id="team" className="text-center">
         <div className="container">
           <div className="col-md-8 col-md-offset-2 section-title">
-            <h2>Meet the Team</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p>
+            <h2>Equipo</h2>
+            
+            <p>{this.props.data ? this.props.data.title.team1 : 'cargando...'}</p>
+            <p>{this.props.data ? this.props.data.title.team2 : 'cargando...'}</p>
+            
           </div>
           <div id="row">
             {this.props.data
-              ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+              ? this.props.data.members.map((d, i) => (
+                  <div  key={`${d.name}-${i}`} className="col-md-3 col-sm-4 col-md-offset-2 team">
                     <div className="thumbnail">
                       {" "}
                       <img src={d.img} alt="..." className="team-img" />
