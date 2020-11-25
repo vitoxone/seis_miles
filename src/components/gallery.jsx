@@ -6,7 +6,7 @@ export class Gallery extends Component {
     const items = [];
 
 
-  for (const [index, value] of elements.entries()) {
+  for (const [value] of elements.entries()) {
     items.push(                  
           <div  key={`${value}`} className="col-sm-6 col-md-4 col-lg-4">
             <div className="portfolio-item">
