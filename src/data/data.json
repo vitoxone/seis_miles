@@ -16,20 +16,42 @@
         "image": "img/project.jpg"
         
     },
-    "Services": [{
+    "Services": [
+        {
+            "icon": "fa fa-wordpress",
+            "name": "Andesgear",
+            "src": "img/logo_andesgear.png",
+            "page": "https://www.andesgear.cl/"
+        },
+        {
+            "icon": "fa fa-wordpress",
+            "name": "Nespra Smart Devices",
+            "src": "img/logo_nespra.png",
+            "page": "https://www.nespra.net/"
+        },
+        {
             "icon": "fa fa-wordpress",
             "name": "Ilustre Municipalidad de Graneros",
-            "src": "img/logo_muni.png"
+            "src": "img/logo_muni.png",
+            "page": "https://www.municipalidadgraneros.cl/"
+        },
+        {
+            "icon": "fa fa-wordpress",
+            "name": "Ulmo Power Honey",
+            "src": "img/logo_power_honey.png",
+            "page": "https://powerhoney.cl/"
         },
         {
             "icon": "fa fa-cart-arrow-down",
             "name": "NUMEC Ingeniería y Montaje",
-            "src": "img/logo_numerec.png"
+            "src": "img/logo_numerec.png",
+            "page": "https://www.numec.cl/"
         },
         {
             "icon": "fa fa-cloud-download",
             "name": "NAC Ingeniería",
-            "src": "img/nac_logo.png"
+            "src": "img/nac_logo.png",
+            "page": "https://www.nacingenieria.com/"
         }
     ],
 
@@ -93,7 +115,7 @@
     },
     "Contact": {
         "address": "Guardia Vieja 181, Of 506. Providencia, Chile.",
-        "phone": "+56990933114",
+        "phone": "(+569) 90933114",
         "email": "info@chile6miles.cl",
         "facebook": "fb.com",
         "twitter": "twitter.com",

@@ -183,7 +183,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
-	display: table;
 	width: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
@@ -225,6 +224,7 @@ header .logos{
 	text-align: right;
 	margin-right: inherit;
 	position: relative;
+	margin-top: 100px;
 }
 
 header .logos .logo_banner{
@@ -265,7 +265,7 @@ header .intro-text .tittle{
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
+	background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
@@ -284,7 +284,7 @@ header .intro-text .tittle{
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #b82925 0%, #0e2591 100%);
+	background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -318,14 +318,14 @@ header .intro-text .tittle{
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
-	color: #fff;
+	background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
+	color: black;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
 #services h2 {
-	color: #fff;
+	color: black;
 }
 #services .section-title h2::after {
 	position: absolute;
@@ -336,24 +336,41 @@ header .intro-text .tittle{
 	bottom: 0;
 	margin-left: -30px;
 	left: 50%;
+	color: black;
+
 }
 #services i.fa {
 	font-size: 42px;
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
+	background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 #services h3 {
 	font-weight: 500;
+	font-size: small;
 	padding: 5px 0;
-	color: #fff;
+	color: black;
 }
 #services p {
-	color: rgba(255,255,255,.75);
+	color: black
+}
+#services a .col-md-4{
+	margin: 8px 8px 8px 8px;
+	background: azure;
+	border-color: azure;
+	border-style: solid;
+    border-width: 4px;
+	max-width: 22%;
+	max-height: 22%;
+}
+#services a:hover .col-md-4{
+    border-color: #ea7237;
+    border-width: 4px;
+    border-style: solid;
 }
 #services .service-desc {
 	margin-bottom: 40px;
@@ -370,6 +387,7 @@ header .intro-text .tittle{
 	overflow: hidden;
 	position: relative;
 	margin: 0;
+	margin: 10px 10px 10px 10px;
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -463,8 +481,8 @@ header .intro-text .tittle{
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #0e2591 0%, #b82925 100%);
-	color: rgba(255,255,255,.75);
+	background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
+	color: black;
 }
 #contact .section-title {
 	margin-bottom: 40px;
@@ -473,7 +491,7 @@ header .intro-text .tittle{
 	font-size: 16px;
 }
 #contact h2 {
-	color: #fff;
+	color: black;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
@@ -488,7 +506,7 @@ header .intro-text .tittle{
 	left: 30px;
 }
 #contact h3 {
-	color: #fff;
+	color: black;
 	margin-top: 80px;
 	margin-bottom: 25px;
 	padding-bottom: 20px;
@@ -555,7 +573,7 @@ color: #777;
 	margin: 20px 0;
 }
 #contact .contact-item span {
-	color: rgba(255,255,255,1);
+	color: #ea7237;
 	margin-bottom: 10px;
 	display: block;
 }
@@ -577,14 +595,14 @@ color: #777;
 	width: 48px;
 	height: 48px;
 	padding: 12px 0;
-	border: 2px solid #fff;
-	color: #fff;
+	border: 2px solid black;
+	color: black;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
-	background: #fff;
+	color: white;
+	background: #ea7237;
 }
 /* Footer Section*/
 #footer {

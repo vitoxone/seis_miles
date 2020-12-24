@@ -26,7 +26,7 @@ export class Header extends Component {
                       <span className="six">6</span> Miles de <span className="country">Chile</span>
                     </h1>
                   </div>
-                </div>>
+                </div>
             </div>
           </div>
         </div>

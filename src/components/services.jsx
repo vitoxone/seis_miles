@@ -8,15 +8,16 @@ export class Services extends Component {
           <div className="section-title">
             <h2>Apoyo</h2>
             <p>
-            Esta aventura no serpia posible sin la colaboración de las siguientes marcas.
+            Esta aventura no sería posible sin la colaboración de las siguientes marcas.
             </p>
           </div>
           <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-4">
+              <a href={d.page} target="_blank" style={{ fontSize: '14px', lineHeight: '26px', color: '#999999' }}>
+                  <div  key={`${d.name}-${i}`} className="col-md-4" style={{borderRadius: '20px'}}>
                     {" "}
-                    <img
+                      <img
                         src={d.src}
                         className="img-responsive"
                         alt={d.name}
@@ -25,6 +26,7 @@ export class Services extends Component {
                       <h3>{d.name}</h3>
                     </div>
                   </div>
+                </a>
                 ))
               : "loading"}
           </div>
