@@ -14,7 +14,7 @@ export class Services extends Component {
           <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
-              <a href={d.page} target="_blank" style={{ fontSize: '14px', lineHeight: '26px', color: '#999999' }}>
+              <a href={d.page} rel="noreferrer" target="_blank" style={{ fontSize: '14px', lineHeight: '26px', color: '#999999' }}>
                   <div  key={`${d.name}-${i}`} className="col-md-4" style={{borderRadius: '20px'}}>
                     {" "}
                       <img
