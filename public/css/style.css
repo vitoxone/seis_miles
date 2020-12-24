@@ -244,8 +244,7 @@ header .intro-text .tittle{
 	border-left-style: solid;
 	border-left-width: 10px;
 	border-color: #b82925;
-;
-	margin-top: 45px
+	margin-top: 45px;
 }
 /* Features Section */
 #features {
@@ -623,5 +622,61 @@ color: #777;
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
+}
+
+@media (max-width: 480px) {
+#menu {
+	display: contents;
+	transition: all 0.8s;
+	font-size: 32px;
+    margin-top: 24px;
+}
+#menu.navbar-default {
+    font-size: 32px;
+    margin-top: 24px;
+}
+.intro h1 {
+	font-size: 50px;
+}
+header .logos{
+	text-align: right;
+	margin-right: inherit;
+	position: relative;
+    margin: 0px;
+}
+
+header .logos .logo_banner{
+	text-align: right;
+	max-width: 200px;
+	max-height: 200px;
+	position: relative;
+}
+header .intro-text {
+	text-align: left;
+	position: relative;
+}
+header .intro-text .tittle{
+	border-left-style: solid;
+	border-left-width: 10px;
+	border-color: #b82925;
+}
+#features {
+	padding: 0px;
+	background: #f6f6f6;
+}
+#services {
+	padding: 0px;
+	background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
+	color: black;
+}
+
+#services a .col-md-4{
+	margin: 8px 8px 8px 8px;
+	background: azure;
+	border-color: azure;
+	border-style: solid;
+    border-width: 4px;
+	max-width: 100%;
+	max-height: 100%;
 }
 }
