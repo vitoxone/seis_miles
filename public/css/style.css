@@ -677,7 +677,7 @@ header .intro-text .tittle{
 	border-color: azure;
 	border-style: solid;
     border-width: 4px;
-	max-width: 60%;
+	max-width: 80%;
 	max-height: 60%;
 	display: inline-table;
 }
