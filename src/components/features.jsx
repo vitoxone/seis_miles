@@ -13,8 +13,27 @@ export class features extends Component {
             </p>
             <p>A continuación, clasificaremos las 37 cumbres por su localización geográfica:</p>
           </div>
+          <div className="row">
+            {this.props.data
+              ? this.props.data.map((d,i) => (
+                  <div  key={`${d.title}-${i}`} className="col-md-12 col-md-3">
+                    {" "}
+                    <div className="features-desc">
+                    <img
+                        src={d.img}
+                        alt="Project Title"
+                      />
+                    <h3>{d.title}</h3>
+                    <p>{d.text}</p>
+                    </div>
+                  </div>
+                ))
+              : "Loading..."}
+          </div>
         </div>
       </div>
+
+      
     );
   }
 }
