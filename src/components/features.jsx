@@ -16,15 +16,15 @@ export class features extends Component {
           <div className="row">
             {this.props.data
               ? this.props.data.map((d,i) => (
-                  <div  key={`${d.title}-${i}`} className="col-md-12 col-md-3">
+                  <div  key={`${d.id}-${i}`} className="col-md-12 col-md-3">
                     {" "}
                     <div className="features-desc">
-                    <img
-                        src={d.img}
-                        alt="Project Title"
-                      />
-                    <h3>{d.title}</h3>
-                    <p>{d.text}</p>
+                      <img
+                          src={d.img}
+                          alt="Project Title"
+                        />
+                      <h3>{d.title}</h3>
+                      <p>{d.text}</p>
                     </div>
                   </div>
                 ))
@@ -33,7 +33,7 @@ export class features extends Component {
         </div>
       </div>
 
-      
+
     );
   }
 }

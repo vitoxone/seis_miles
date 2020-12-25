@@ -117,12 +117,12 @@
         "address": "Guardia Vieja 181, Of 506. Providencia, Chile.",
         "phone": "(+569) 90933114",
         "email": "info@chile6miles.cl",
-        "facebook": "fb.com",
+        "instagram": "https://www.instagram.com/chile6miles/",
         "twitter": "twitter.com",
-        "youtube": "youtube.com",
-        "instagram": "instagram.com"
+        "youtube": "youtube.com"
     },
     "Features": [{
+            "id" : "1",
             "icon": "fa-mountain",
             "title": "Arica y Parinacota",
             "text": "5 Volcanes",
@@ -155,24 +155,28 @@
         ]
         },
         {
+            "id" : "2",
             "icon": "fa fa-comments-o",
             "title": "Antofagasta",
             "text": "9 Volcanes",
             "img": "img/places/climb.png"
         },
         {
+            "id" : "3",
             "icon": "fa-group",
             "title": "Atacama",
             "img": "img/places/climb.png",
             "text": "3 Cerros, 8 Volcanes, 5 Nevados"
         },
         {
+            "id" : "4",
             "icon": "fa-magic",
             "title": "Coquimbo",
             "text": "1 Cerro, 1 Nevado",
             "img": "img/places/climb.png"
         },
         {
+            "id" : "5",
             "icon": "fa fa-magic",
             "title": "Metropolitana",
             "text": "1 Cerro, 2 Nevados, 2 Volcanes",
