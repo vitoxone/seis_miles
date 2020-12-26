@@ -363,7 +363,7 @@ header .intro-text .tittle{
 	border-style: solid;
     border-width: 4px;
 	max-width: 22%;
-	max-height: 60%;
+	max-height: 35%;
 }
 #services a:hover .col-md-4{
     border-color: #ea7237;
