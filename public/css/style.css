@@ -363,7 +363,7 @@ header .intro-text .tittle{
 	border-style: solid;
     border-width: 4px;
 	max-width: 22%;
-	max-height: 22%;
+	max-height: 60%;
 }
 #services a:hover .col-md-4{
     border-color: #ea7237;
@@ -626,6 +626,18 @@ color: #777;
 }
 
 @media (max-width: 480px) {
+.intro {
+	width: 100%;
+	max-height: 85%;
+	padding: 0;
+	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
 .intro h1 {
 	font-size: 50px;
 }
